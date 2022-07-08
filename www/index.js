@@ -5,17 +5,18 @@ let net;
 // Changes by EC ###########
 // let isPredicting = false;
 let isPredicting = True;
-
-// function startPredicting(){
-// 	isPredicting=true;
-// 	app();
-// }
-
-// function stopPredicting(){
-// 	isPredicting=false;
-// 	app();
-// }
 //  ####################
+
+function startPredicting(){
+	isPredicting=true;
+	app();
+}
+
+function stopPredicting(){
+	isPredicting=false;
+	app();
+}
+
 
 
 async function app(){
