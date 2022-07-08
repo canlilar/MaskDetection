@@ -199,8 +199,16 @@
               id="webcam" 
               style="min-width: 100%; min-height: 100%">
             </video>
-            <button type="button" id="startPredicting" style="position:absolute;width:400px;left:22%;margin-top:35%;background-color:#239B56; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="startPredicting()" >Start Predicting</button>
-            <button type="button" id="stopPredicting" style="position:absolute;width:400px;left:52%;margin-top:35%;background-color:#f44336; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" onclick="stopPredicting()" >Stop Predicting</button>
+            <button 
+                type="button" 
+                id="startPredicting" 
+                style="position:absolute;width:400px;left:22%;margin-top:35%;background-color:#239B56; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" 
+                onclick="startPredicting()" >Start Predicting</button>
+            <button 
+                type="button" 
+                id="stopPredicting" 
+                style="position:absolute;width:400px;left:52%;margin-top:35%;background-color:#f44336; font-size:32px; padding: 32px 16px; border-radius: 20px; border: 3px solid #17202A" 
+                onclick="stopPredicting()" >Stop Predicting</button>
           <!-- ################# End Changes by EC ################## -->
           <!-- <video
                 style="min-width: 100%; min-height: 100%"
@@ -230,7 +238,9 @@
                   role="button"
                   rel="nofollow"
                   target="_blank"
-                  >Start tutorial</a
+                  id="startPredicting" 
+                  onclick="startPredicting()" 
+                  >Start Predicting</a
                   >
                 <a
                   class="btn btn-outline-light btn-lg m-2"
