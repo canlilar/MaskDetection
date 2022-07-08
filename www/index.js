@@ -2,10 +2,7 @@ const webcamElement= document.getElementById('webcam');
 
 let net;
 
-// Changes by EC ###########
-// let isPredicting = false;
-let isPredicting = True;
-//  ####################
+let isPredicting = false;
 
 function startPredicting(){
 	isPredicting=true;
